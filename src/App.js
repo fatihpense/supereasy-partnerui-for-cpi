@@ -83,7 +83,7 @@ const App = observer(
     };
 
     render() {
-      console.log(rootStore.loginStore.isLoggedIn)
+      //console.log(rootStore.loginStore.isLoggedIn)
       return (
 
 

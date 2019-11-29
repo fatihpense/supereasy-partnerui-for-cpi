@@ -13,7 +13,8 @@ class StringParametersStore {
 
     getAll() {
         let self = this;
-        axios.get('/api/v1/AlternativePartner')
+        let axios = this.rootStore.loginStore.axios;
+        axios.get('/api/v1/StringParameters')
             .then(function (response) {
                 // handle success
 
